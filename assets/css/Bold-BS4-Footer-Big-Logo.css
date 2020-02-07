@@ -4,6 +4,10 @@
   padding-top: 30px;
 }
 
+.logo {
+    margin-top: 31px;
+}
+
 #myFooter .footer-copyright {
   background-color: #333333;
   padding-top: 3px;
@@ -64,16 +68,16 @@
   color: #0077e2;
 }
 
-#myFooter .google:hover {
+#myFooter .twitter:hover {
+  color: #1ac4ef;
+}
+
+#myFooter .instagram:hover {
   color: #ef1a1a;
 }
 
-#myFooter .twitter:hover {
-  color: #00aced;
-}
-
-#myFooter .linkedin:hover {
-  color: #007BB6;
+#myFooter .youtube:hover {
+  color: #bb0808;
 }
 
 #myFooter .btn {
@@ -94,7 +98,4 @@
   }
 }
 
-.clean-block.about-us {
-  padding-bottom: 100px;
-}
 
