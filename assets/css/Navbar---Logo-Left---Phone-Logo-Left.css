@@ -1,0 +1,12 @@
+#logoimage {
+  filter: brightness(126%) contrast(116%) saturate(102%);
+  background-color: #f9d616;
+  border: 1px solid #f9d616;
+  border-radius: 15px;
+  width: 75px;
+}
+
+.navbar-dark .navbar-toggler {
+  background-color: #ef1a1a;
+}
+

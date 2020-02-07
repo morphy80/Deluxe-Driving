@@ -1,0 +1,42 @@
+.clean-block.clean-form.dark {
+  background-color: transparent;
+}
+
+.clean-block.clean-form form {
+  border: 1px solid #f9d616;
+  background-color: transparent;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.075);
+}
+
+.btn.btn-primary.btn-block.text-center.text-white.border.rounded.border-white.shadow.d-block.d-xl-flex.justify-content-xl-center {
+  background-color: #ef1a1a;
+  font-weight: bold;
+  font-family: inherit;
+  color: #f9f9f9;
+  width: 175px;
+  margin: 45px auto;
+  border-radius: 25rem;
+  border: 1px solid transparent;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.page.contact-us-page {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 20px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-image: url("../../assets/img/cars/action-asphalt-automobile-automotive-593172.jpg");
+}
+
+.clean-block .block-heading {
+  background: transparent;
+}
+
