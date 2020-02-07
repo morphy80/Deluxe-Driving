@@ -9,6 +9,9 @@
 }
 
 #myFooter .footer-copyright {
+ margin-bottom: 0px;
+ opacity: 0.71;
+ filter: saturate(98%);
   background-color: #333333;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -20,8 +23,9 @@
 }
 
 #myFooter .footer-copyright p {
+ font-style: oblique;
   margin: 10px;
-  color: #ccc;
+  color: rgb(28, 14, 224);
 }
 
 #myFooter ul {
