@@ -1,10 +1,3 @@
-.text-left.d-inline-flex.d-sm-flex.mx-auto.justify-content-sm-center.justify-content-md-center.justify-content-lg-center {
-  font-weight: 300;
-  margin: 0px 15px 0px 15px;
-  padding: 0px 15px 0px 15px;
-  color: #444444;
-  opacity: 0.87;
-}
 
 .clean-block .block-heading p {
   color: #212529;
@@ -16,15 +9,7 @@
   opacity: 0.8;
 }
 
-.display-4.text-center.shadow-sm.d-block {
-  margin: 15px 25px;
-  padding: 0 15px;
-}
-
-.display-4.text-center.shadow-sm.d-inline-block.d-sm-inline-flex.mx-auto.flex-sm-shrink-1.flex-md-shrink-1 {
-  width: 90%;
-  font-size: 48px;
-}
+/*---Form---*/
 
 .clean-block.clean-form.dark {
   background-color: transparent;
@@ -40,6 +25,8 @@
   box-shadow: 0 2px 10px rgba(0,0,0,.075);
 }
 
+/*---Buttons---*/
+
 .btn.btn-primary.btn-block.d-block {
   text-align: center;
   background-color: #ef1a1a;
@@ -53,6 +40,19 @@
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+/*---Landing page---*/
+
+.page.landing-page {
+  background-image: url("../../assets/img/cars/white-mercedes-benz-interior-design-193999.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 20px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+}
+
 .page.contact-us-page {
   background-position: center;
   background-repeat: no-repeat;
@@ -64,6 +64,8 @@
   text-align: center;
   background-image: url("../../assets/img/cars/action-asphalt-automobile-automotive-593172.jpg");
 }
+
+/*---Footer---*/
 
 #myFooter {
   background-color: #070707;
@@ -141,7 +143,7 @@
 }
 
 #myFooter .youtube:hover {
-  color: #bb0808;
+  color: #fa1c1c;
 }
 
 #myFooter .btn {
@@ -196,16 +198,6 @@
   width: 75px;
 }
 
-.page.landing-page {
-  background-image: url("../../assets/img/cars/white-mercedes-benz-interior-design-193999.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  padding-top: 20px;
-  margin-top: 0px;
-  padding-bottom: 20px;
-}
 
 .btn.btn-outline-danger.btn-lg.text-danger {
   color: #f9f9f9;
@@ -218,10 +210,6 @@
   padding: 10px;
   display: inline-block;
   background-color: rgba(0,0,0,0.075);
-}
-
-.fa.fa-dashboard.icon {
-  color: #ef1a1a;
 }
 
 .btn.btn-outline-danger.btn-lg.text-danger {
@@ -256,6 +244,10 @@
 }
 
 .fa.fa-heart.icon {
+  color: #ef1a1a;
+}
+
+.fa.fa-dashboard.icon {
   color: #ef1a1a;
 }
 
