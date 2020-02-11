@@ -24,11 +24,17 @@ In this category covers different personal experiences such as youngsters that a
  The main goal is to attract new clients and to expand quickly as the good reputation goes further. 
 
 ### Wireframes  
+The basic design ideas in the conception stage.
+
+[Landingpage and Gallery](https://github.com/morphy80/Deluxe-Driving/blob/master/assets/img/wireframes/mockup1.jpg)
+[Pricing and Reviews](https://github.com/morphy80/Deluxe-Driving/blob/master/assets/img/wireframes/mockup2.jpg)
+[About-us and Contacts](https://github.com/morphy80/Deluxe-Driving/blob/master/assets/img/wireframes/mockup3.jpg)
 
 ## Features
 
 This site is using JavaScript animantion which provides a better 'call to action' user experience when hovering the buttons.
 Navbar stays collapsed for medium and smaller screen sizes and expands for larger ones for a better real-estate regarding the number of menu items.
+The colors chosen are in dark and goldish combination to inspire a more bussines and luxurious state. Red is one of the best colors for the 'call to action' buttons and it's in the perfect contrast to push the user towards it.
  
 ### Existing Features
 
