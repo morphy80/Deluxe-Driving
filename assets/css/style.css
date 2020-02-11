@@ -325,20 +325,6 @@ span {
 
 /*---Media Queries---*/
 
-@media (min-width:576px) {
-  .clean-block.clean-hero .text {
-    padding: 15px;
-  }
-}
-
-@media (min-width:576px) {
-  .clean-block.clean-hero {
-    justify-content: center;
-    display: flex;
-    min-height: 930px;
-  }
-}
-
 @media (min-width: 300px) {
   .clean-block.clean-hero {
     justify-content: center;
@@ -347,4 +333,13 @@ span {
   }
 }
 
-
+@media (min-width:576px) {  
+  .clean-block.clean-hero {
+    justify-content: center;
+    display: flex;
+    min-height: 930px;
+  }
+  .clean-block.clean-hero .text {
+    padding: 15px;
+  }
+}
