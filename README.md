@@ -1,38 +1,62 @@
 # CarDeluxe
+
 Milestone Project: User-Centric Frontend Development 
 
 This is a car rental website with a purpose to attract customers passionate with driving luxry cars. 
 The main scope of the website is to sell the experience of extraordinary driving.
+The ideea started from my personal passion with speed cars and limited local offer. 
+The only website I could find in Sweden dedicated to luxury cars and rental experience that I've also used as source of inspiration is : [dreamcarrental.se](https://www.dreamcarrental.se/)
 
 
 ## UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The user experiences is structured for both private and corporate entities.It is designed to address to prospects, existing customers but also a tool for the company to update the viewers with correct pricing and latest car selection.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+**User 1 - Corporate**
+Legal entities that are intrested in arranging team buildings, offer gift voucher or rent the car for an important meeting.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+**User 2 - Private**
+In this category covers different personal experiences such as youngsters that are trying to show off or teenagers going to the prom, but also couples that are starting a new adventure in their life with a strong push of the gas pedal as well.
+
+**Company - CarDeluxe**
+ The admin of the site can easily access the data base of the customers, update prices, available cars, reviews and any detail regarding the company.
+
+ The main goal is to attract new clients and to expand quickly as the good reputation goes further. 
+
+### Wireframes  
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+This site is using JavaScript animantion which provides a better 'call to action' user experience when hovering the buttons.
+Navbar stays collapsed for medium and smaller screen sizes and expands for larger ones for a better real-estate regarding the number of menu items.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+**Contact page - Connectivity with clients**
+Easy to use contacts page with to book a service or send a message to the company.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+**Header**
+A styled links navbar to all pages for ease of access.
+
+**Footer**
+Links to social media pages.
+
+**Responsive**
+All features designed to work over multiple devices, ensuring the highest level of usability on mobile devices.  
 
 ### Features Left to Implement
-- Another feature idea
+
+* Online booking feature with calendar
+* Online payments options
+* Ecommerce page to sell other services and small brand gadgets and accessories.
+* Live stream from happy customers using our services
+* Hire a driver
 
 ## Technologies Used
-1. HTML
-2. CSS
-3. Bootstrap (4.4.1)
+1. HTML - validated with https://validator.w3.org/
+2. CSS - validated with https://jigsaw.w3.org/css-validator/
+3. Bootstrap (4.3.1)
+**This project used some Bootstrap toolkit, such as repsonsive elements,carousel, cards, and Navbar.**
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -62,24 +86,17 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This site is hosted using GitHub pages, deployed directly from the master branch.In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html .
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+https://morphy80.github.io/Deluxe-Driving/
 
 
-## Credits
+## Credits and Acknowledgements
+
+This website is designed on my own with the Boostrap Studio (https://bootstrapstudio.io/).
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
-
-### Acknowledgements
-
-- I received inspiration for this project from X
+- The photos used in this site were obtained from (https://www.pexels.com/)
