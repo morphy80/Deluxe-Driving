@@ -64,17 +64,18 @@ User testing completed by Code Institute mentor and tutor assistance provided. V
 
 ## Deployment
 
-This site is hosted using GitHub pages, deployed directly from the master branch.In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html .
+This site is hosted using GitHub pages, deployed directly from the master branch.In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
 
 https://morphy80.github.io/Deluxe-Driving/
 
 ## Credits and Acknowledgements
 
-This website is designed on my own with the Boostrap Studio (https://bootstrapstudio.io/), exported files to the Github desktop and uploaded to Github.
+This website is designed on my own with the [Boostrap Studio](https://bootstrapstudio.io/), exported files to the Github desktop and uploaded to Github.
 Editor used is gitpod.
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+* The text for section `about-us.html` was copied from : [Starr Luxury Cars](https://starrluxurycars.com/about/)
+* The text for section `reviews.html` was copied from : [Ultimate Driving Tours](https://www.ultimatedrivingtours.com/testimonials/)
 
 ### Media
-- The photos used in this site were obtained from (https://www.pexels.com/)
+* The photos used in this site were obtained from : https://www.pexels.com
