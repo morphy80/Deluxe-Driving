@@ -1,3 +1,87 @@
+/*---Navbar---*/
+
+.navbar.navbar-dark.navbar-expand-lg {
+  text-align: center;
+  background-color: #070707;
+}
+
+#logoimage {
+  background-color: #f9d616;
+  border: 1px solid #f9d616;
+  border-radius: 15px;
+  width: 75px;
+}
+
+.navbar-dark .navbar-toggler {
+  background-color: #ef1a1a;
+  filter: brightness(173%);
+}
+
+.navbar-dark .navbar-brand, {
+  margin: 0px;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+  padding: 0px;
+  margin-right: 0px;
+}
+
+.nav.navbar-nav {
+  margin-left: auto;
+  float: right;
+  display: flex;
+  text-align: center;
+}
+
+.nav-item.navitems {
+  text-align: right;
+}
+
+/*---Landing page---*/
+
+.page.landing-page {
+  background-image: url("../../assets/img/cars/white-mercedes-benz-interior-design-193999.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 20px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+}
+
+.clean-block.clean-hero {
+  height: 50%;
+  margin-top: 150px;
+  background-color: transparent;
+  opacity: 0.80;
+}
+
+.clean-block.clean-hero h2 {
+  color: #f9d616;
+  font-size: xx-large;
+  font-weight: 300;
+}
+
+.h2, h2 {
+  font-size: 28px;
+  color: #f9d616;
+  margin-top: 8px;
+}
+
+.clean-block .block-heading h1, .clean-block .block-heading h2, .clean-block .block-heading h3 {
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  display: inline-block;
+  background-color: rgba(0,0,0,0.075);
+}
+
+.clean-block.clean-hero p {
+  padding-left: 26px;
+  padding-right: 26px;
+}
 
 .clean-block .block-heading p {
   color: #212529;
@@ -9,7 +93,67 @@
   opacity: 0.8;
 }
 
-/*---Form---*/
+.fa.fa-building-o.icon {
+  color: #ef1a1a;
+}
+
+.fa.fa-graduation-cap.icon {
+  color: #ef1a1a;
+}
+
+.fa.fa-heart.icon {
+  color: #ef1a1a;
+}
+
+.fa.fa-dashboard.icon {
+  color: #ef1a1a;
+}
+
+/*---Pricing page---*/
+
+.clean-pricing-item .features .feature {
+  color: #070707;
+}
+
+.h3, h3 {
+  color: #070707;
+}
+
+/*---Testimonials page---*/
+
+.clean-testimonial-item p {
+  color: #0d0c0c;
+  padding: 10px;
+}
+
+.clean-testimonial-item h3 {
+  text-align: center;
+  color: #070707;
+  padding: 10px;
+}
+
+span {
+  color: #0d0c0c;
+}
+
+/*---Contact Form---*/
+
+.page.contact-us-page {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 20px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-image: url("../../assets/img/cars/action-asphalt-automobile-automotive-593172.jpg");
+}
+
+.clean-block.dark .block-heading p {
+  display: block;
+  text-align: center;
+}
 
 .clean-block.clean-form.dark {
   background-color: transparent;
@@ -29,6 +173,19 @@
 
 /*---Buttons---*/
 
+.btn-warning {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn.btn-outline-danger.btn-lg.text-danger {
+  background-color: #d2d1d1;
+  color: #ef1a1a;
+  opacity: 0.58;
+  filter: contrast(173%);
+}
+
 .btn.btn-primary.btn-block.d-block {
   text-align: center;
   background-color: #ef1a1a;
@@ -40,31 +197,6 @@
   border-radius: 10px;
   border: 0.5px solid #070707;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-/*---Landing page---*/
-
-.page.landing-page {
-  background-image: url("../../assets/img/cars/white-mercedes-benz-interior-design-193999.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  padding-top: 20px;
-  margin-top: 0px;
-  padding-bottom: 20px;
-}
-
-.page.contact-us-page {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  padding-top: 20px;
-  margin-top: 0px;
-  padding-bottom: 20px;
-  text-align: center;
-  background-image: url("../../assets/img/cars/action-asphalt-automobile-automotive-593172.jpg");
 }
 
 /*---Footer---*/
@@ -150,13 +282,17 @@
 
 #myFooter .btn {
   background-color: #ef1a1a;
-  border-radius: 15px;
-  border: 1px solid #f9d616;
+  border-radius: 10px;
+  border: 0.5px solid #f9d616;
   width: 160px;
   display: block;
   margin: 0 auto;
   margin-top: 30px;
   line-height: 20px;
+}
+
+.col-12.col-md-3.col-xl-3 {
+  align-self: center;
 }
 
 .text-info {
@@ -167,142 +303,6 @@
   filter: saturate(96%);
   font-size: 13px;
   font-style: oblique;
-}
-
-.btn-warning {
-  color: #212529;
-  background-color: #ffc107;
-  border-color: #ffc107;
-}
-
-.clean-block.clean-hero {
-  height: 50%;
-  margin-top: 150px;
-  background-color: transparent;
-  opacity: 0.80;
-}
-
-.navbar.navbar-dark.navbar-expand-lg {
-  text-align: center;
-  background-color: #070707;
-}
-
-#logoimage {
-  background-color: #f9d616;
-  border: 1px solid #f9d616;
-  border-radius: 15px;
-  width: 75px;
-}
-
-
-.btn.btn-outline-danger.btn-lg.text-danger {
-  color: #f9f9f9;
-}
-
-.clean-block .block-heading h1, .clean-block .block-heading h2, .clean-block .block-heading h3 {
-  width: auto;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 10px;
-  display: inline-block;
-  background-color: rgba(0,0,0,0.075);
-}
-
-.btn.btn-outline-danger.btn-lg.text-danger {
-  background-color: #d2d1d1;
-  color: #ef1a1a;
-  opacity: 0.58;
-  filter: contrast(173%);
-}
-
-.clean-block.clean-hero h2 {
-  color: #f9d616;
-  font-size: xx-large;
-  font-weight: 300;
-}
-
-.navbar-dark .navbar-toggler {
-  background-color: #ef1a1a;
-  filter: brightness(173%);
-}
-
-.clean-block.clean-hero p {
-  padding-left: 26px;
-  padding-right: 26px;
-}
-
-.fa.fa-building-o.icon {
-  color: #ef1a1a;
-}
-
-.fa.fa-graduation-cap.icon {
-  color: #ef1a1a;
-}
-
-.fa.fa-heart.icon {
-  color: #ef1a1a;
-}
-
-.fa.fa-dashboard.icon {
-  color: #ef1a1a;
-}
-
-.col-12.col-md-3.col-xl-3 {
-  align-self: center;
-}
-
-.h2, h2 {
-  font-size: 28px;
-  color: #f9d616;
-  margin-top: 8px;
-}
-
-.navbar-dark .navbar-brand, {
-  margin: 0px;
-}
-
-.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
-  padding: 0px;
-  margin-right: 0px;
-}
-
-.nav.navbar-nav {
-  margin-left: auto;
-  float: right;
-  display: flex;
-  text-align: center;
-}
-
-.clean-block.dark .block-heading p {
-  display: block;
-  text-align: center;
-}
-
-.nav-item.navitems {
-  text-align: right;
-}
-
-.clean-testimonial-item p {
-  color: #0d0c0c;
-  padding: 10px;
-}
-
-.clean-testimonial-item h3 {
-  text-align: center;
-  color: #070707;
-  padding: 10px;
-}
-
-span {
-  color: #0d0c0c;
-}
-
-.clean-pricing-item .features .feature {
-  color: #070707;
-}
-
-.h3, h3 {
-  color: #070707;
 }
 
 /*---Media Queries---*/
