@@ -185,12 +185,6 @@
   background-color: #070707;
 }
 
-@media (min-width:576px) {
-  .clean-block.clean-hero .text {
-    padding: 15px;
-  }
-}
-
 #logoimage {
   background-color: #f9d616;
   border: 1px solid #f9d616;
@@ -309,3 +303,10 @@ span {
   color: #070707;
 }
 
+/*Media Queries---*/
+
+@media (min-width:576px) {
+  .clean-block.clean-hero .text {
+    padding: 15px;
+  }
+}
