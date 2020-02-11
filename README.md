@@ -10,7 +10,7 @@ The only website I could find in Sweden dedicated to luxury cars and rental expe
 
 ## UX
 
-The user experiences is structured for both private and corporate entities.It is designed to address to prospects, existing customers but also a tool for the company to update the viewers with correct pricing and latest car selection.
+The user experiences is structured for both private and corporate entities. It is designed to address to prospects, existing customers but also a tool for the company to update the viewers with correct pricing and latest car selection.
 
 **User 1 - Corporate**
 Legal entities that are intrested in arranging team buildings, offer gift voucher or rent the car for an important meeting.
@@ -55,7 +55,7 @@ All features designed to work over multiple devices, ensuring the highest level 
 ## Technologies Used
 1. HTML - validated with https://validator.w3.org/
 2. CSS - validated with https://jigsaw.w3.org/css-validator/
-3. Bootstrap (4.3.1)
+3. Bootstrap (4.3.1) - https://getbootstrap.com/
 **This project used Bootstrap toolkit such as repsonsive elements,carousel, cards, and Navbar.**
 4. Fontawesome - https://fontawesome.com/
 5. Google fonts - https://fonts.google.com/
@@ -74,7 +74,7 @@ https://morphy80.github.io/Deluxe-Driving/
 ## Credits and Acknowledgements
 
 This website is designed on my own with the [Boostrap Studio](https://bootstrapstudio.io/), exported files to the Github desktop and uploaded to Github.
-As for code editor I used mainly is gitpod.
+As for code editor I used mainly gitpod.
 
 ### Content
 * The text for section `about-us.html` was copied from : [Starr Luxury Cars](https://starrluxurycars.com/about/)
