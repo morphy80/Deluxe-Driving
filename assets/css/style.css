@@ -44,17 +44,18 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
-  padding-top: 20px;
-  margin-top: 0px;
-  padding-bottom: 20px;
 }
 
 .clean-block.clean-hero {
-  height: 50%;
-  margin-top: 150px;
-  background-color: transparent;
-  opacity: 0.80;
+  background-image: url("../../assets/img/logo/close-up-of-gear-shift-over-black-background-248539.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: rgba(44,39,9,0.51);
 }
 
 .clean-block.clean-hero h2 {
@@ -91,6 +92,23 @@
   margin: 15px auto;
   padding: 15px;
   opacity: 0.8;
+}
+
+.display-4 {
+  line-height: 50px;
+  padding: 10px;
+  display: inline-block;
+  color: #ffffff;
+  background-color: rgba(44,39,9,0.51);
+}
+
+.text-light {
+   background-color: rgba(44,39,9,0.51);
+}
+
+.col-md-5.feature-box {
+  color: white;
+  background-color: rgba(44,39,9,0.51);
 }
 
 .fa.fa-building-o.icon {
@@ -312,3 +330,21 @@ span {
     padding: 15px;
   }
 }
+
+@media (min-width:576px) {
+  .clean-block.clean-hero {
+    justify-content: center;
+    display: flex;
+    min-height: 930px;
+  }
+}
+
+@media (min-width: 300px) {
+  .clean-block.clean-hero {
+    justify-content: center;
+    display: flex;
+    min-height: 600px;
+  }
+}
+
+
