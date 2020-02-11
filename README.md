@@ -57,10 +57,13 @@ All features designed to work over multiple devices, ensuring the highest level 
 2. CSS - validated with https://jigsaw.w3.org/css-validator/
 3. Bootstrap (4.3.1)
 **This project used Bootstrap toolkit such as repsonsive elements,carousel, cards, and Navbar.**
+4. Fontawesome - https://fontawesome.com/
+5. Google fonts - https://fonts.google.com/
 
 ## Testing
 
 User testing completed by Code Institute mentor and tutor assistance provided. Very positive feedback regarding color choice combination and distribuion of the components.
+Tested on different browsers such Google Chrome, Internet Explorer, Mozila Firefox and different screen sizes such iPhone 6/7/8, iPad and desktop.
 
 ## Deployment
 
@@ -71,7 +74,7 @@ https://morphy80.github.io/Deluxe-Driving/
 ## Credits and Acknowledgements
 
 This website is designed on my own with the [Boostrap Studio](https://bootstrapstudio.io/), exported files to the Github desktop and uploaded to Github.
-Editor used is gitpod.
+As for code editor I used mainly is gitpod.
 
 ### Content
 * The text for section `about-us.html` was copied from : [Starr Luxury Cars](https://starrluxurycars.com/about/)
