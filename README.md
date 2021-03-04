@@ -1,12 +1,48 @@
 # CarDeluxe
 
-Milestone Project: User-Centric Frontend Development 
+## Milestone Project 1: User-Centric Frontend Development 
 
+---
+## Table of Contents
+1. [**Description**](#description) 
+2. [**UX**](#ux)
+    - [**Why This Project**](#why-this-project) 
+    - [**User Stories**](#user-stories)
+    - [**Design**](#design)
+    - [**Wireframes**](#wireframes)
+    - [**Database Schema**](#database-schema)
+3. [**Features**](#features)
+    - [**Existing Features**](#existing-features)
+    - [**Features Left to Implement**](#features-left-to-implement)
+4. [**Technologies Used**](#technologies-used)
+    - [**Languages**](#languages)
+    - [**Libraries and Frameworks**](#libraries-and-frameworks)
+    - [**Tools**](#tools)
+    - [**Databases**](#databases)
+    - [**Version Control**](#version-control)
+    - [**Hosting**](#hosting)
+5. [**Testing**](#testing)
+    - [**Code Validation**](#code-validation)
+    - [**Automated Testing**](#automated-testing)
+    - [**Manual User Testing**](#manual-user-testing)
+    - [**Problems and Bugs**](#problems-and-bugs)
+6. [**Deployment**](#deployment)
+    - [**Local Deployment**](#local-deployment)
+    - [**Remote Deployment**](#remote-deployment)
+7. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Acknowledgements**](#acknowledgements)
+8. [**Disclaimer**](#disclaimer)
+---
+
+## Description
 This is a car rental website with a purpose to attract customers passionate with driving luxry cars. 
 The main scope of the website is to sell the experience of extraordinary driving.
 The ideea started from my personal passion with speed cars and limited local offer. 
 The only website I could find in Sweden dedicated to luxury cars and rental experience that I've also used as source of inspiration is : [dreamcarrental.se](https://www.dreamcarrental.se/)
- ![Image of landing page](https://github.com/morphy80/Deluxe-Driving/blob/master/assets/img/logo/landing-page.PNG)
+ ![Image of landing page](<img src="https://res.cloudinary.com/ddrsbzhmf/image/upload/v1614897093/CarDeluxe/landing_page_cpfxjv.png" alt="mockup" target="_blank" rel="noopener" width="850">)
+
+---
 
 ## UX
 
@@ -88,3 +124,24 @@ As for code editor I used mainly gitpod.
 
 ### Media
 * The photos used in this site were obtained from : https://www.pexels.com
+
+
+---
+
+## Disclaimer
+This site is made for **educational purposes** only!
+
+<div>
+	<b>Copyright &copy; 2020 Alexandru Apostoiu</b>
+</div>
+
+---
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+---
