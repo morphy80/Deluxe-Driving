@@ -25,8 +25,8 @@
     margin: 0;
 }
 
-a.nav-link a:hover,
-a.nav-link a:focus {
+a.nav-link.active a:hover,
+a.nav-link.active a:focus {
     text-decoration: none;
     color: #ef1a1a;
 }

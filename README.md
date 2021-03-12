@@ -40,6 +40,7 @@ This is a car rental website with a purpose to attract customers passionate with
 The main scope of the website is to sell the experience of extraordinary driving.
 The ideea started from my personal passion with speed cars and limited local offer. 
 The only website I could find in Sweden dedicated to luxury cars and rental experience that I've also used as source of inspiration is : [dreamcarrental.se](https://www.dreamcarrental.se/)
+
  ![Image of landing page](<img src="https://res.cloudinary.com/ddrsbzhmf/image/upload/v1614897093/CarDeluxe/landing_page_cpfxjv.png" alt="mockup" target="_blank" rel="noopener" width="850">)
 
 ---
@@ -63,7 +64,9 @@ In this category covers different personal experiences such as youngsters that a
 The basic design ideas in the conception stage.
 
 [Landingpage and Gallery](https://github.com/morphy80/Deluxe-Driving/blob/master/assets/img/wireframes/mockup1.jpg)
+
 [Pricing and Reviews](https://github.com/morphy80/Deluxe-Driving/blob/master/assets/img/wireframes/mockup2.jpg)
+
 [About-us and Contacts](https://github.com/morphy80/Deluxe-Driving/blob/master/assets/img/wireframes/mockup3.jpg)
 
 ## Features
