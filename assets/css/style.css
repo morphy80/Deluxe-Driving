@@ -25,7 +25,8 @@
     margin: 0;
 }
 
-.nav-item.navitems a:hover, .nav-item.navitems a:focus {
+a.nav-link a:hover,
+a.nav-link a:focus {
     text-decoration: none;
     color: #ef1a1a;
 }
@@ -207,13 +208,12 @@ span {
 /*---Buttons---*/
 
 .btn-warning {
-    color: #212529;
     background-color: #fcc309;
     border-color: #ffc107;
 }
 
 .btn.btn-outline-danger.btn-lg.text-danger {
-    background-color: #d2d1d1;
+    background-color: #f9f9f9;
     color: #ef1a1a;
     opacity: 0.58;
     filter: contrast(173%);
@@ -236,13 +236,12 @@ span {
 
 #myFooter {
     background-color: #070707;
-    color: #ffffff;
     padding-top: 30px;
     height: auto;
 }
 
 #myFooter .footer-copyright {
-    background-color: #555555;
+    background-color: #351313;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
@@ -254,33 +253,34 @@ span {
 
 #myFooter .footer-copyright p {
     margin: 10px;
-    color: #ccc;
 }
 
 #myFooter ul {
     list-style-type: none;
     padding-left: 0;
-    line-height: 1.7;
+    line-height: 2;
 }
 
 #myFooter h5 {
     font-size: 18px;
-    color: white;
+    color: #fff;
     font-weight: bold;
     margin-top: 25px;
 }
 
 #myFooter a {
-    color: #d2d1d1;
+    color: #fff;
     text-decoration: none;
 }
 
-#myFooter .btn:hover, #myFooter .btn:focus {
+#myFooter .btn:hover,
+#myFooter .btn:focus {
     text-decoration: none;
-    color: #f9f9f9;
+    color: #fff;
 }
 
-#myFooter a:hover, #myFooter a:focus {
+#myFooter a:hover,
+#myFooter a:focus {
     text-decoration: none;
     color: #ef1a1a;
 }
@@ -292,7 +292,6 @@ span {
 
 #myFooter .social-links a {
     font-size: 22px;
-    color: #d2d1d1;
     padding: 10px;
     transition: 0.2s;
 }
@@ -353,6 +352,8 @@ span {
     .clean-block.clean-hero {
     justify-content: center;
     display: flex;
+    min-height: 95vh;
+    padding-bottom: 5%;
     }
 
     .clean-block.clean-hero .text {
