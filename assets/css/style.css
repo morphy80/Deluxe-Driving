@@ -92,7 +92,8 @@ a.nav-link.active a:focus {
     margin-right: 10px;
     padding: 10px;
     display: inline-block;
-    background-color: rgba(0,0,0,0.075);
+    box-shadow: 6px 8px 6px 0px;
+    background-color: hsla(0, 0%, 0%, 0.075);
 }
 
 .clean-block.clean-hero p {
@@ -107,6 +108,7 @@ a.nav-link.active a:focus {
     max-width: 420px;
     margin: 15px auto;
     padding: 15px;
+    box-shadow: 5px 15px 15px 5px;
     opacity: 0.8;
 }
 
@@ -114,17 +116,17 @@ a.nav-link.active a:focus {
     line-height: 50px;
     padding: 10px;
     display: inline-block;
-    color: #ffffff;
-    background-color: rgba(44,39,9,0.51);
+    color: #fff;
+    background-color: hsla(44, 39, 9, 0.51);
 }
 
 .text-light {
-    background-color: rgba(44,39,9,0.51);
+    background-color: rgba(44, 39, 9, 0.51);
 }
 
 .col-md-5.feature-box {
-    color: white;
-    background-color: rgba(44,39,9,0.51);
+    color: #fff;
+    background-color: rgba(44, 39, 9, 0.51);
 }
 
 .fa.fa-building-o.icon {

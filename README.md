@@ -41,7 +41,7 @@ The main scope of the website is to sell the experience of extraordinary driving
 The ideea started from my personal passion with speed cars and limited local offer. 
 The only website I could find in Sweden dedicated to luxury cars and rental experience that I've also used as source of inspiration is : [dreamcarrental.se](https://www.dreamcarrental.se/)
 
- ![Image of landing page](<img src="https://res.cloudinary.com/ddrsbzhmf/image/upload/v1614897093/CarDeluxe/landing_page_cpfxjv.png" alt="mockup" target="_blank" rel="noopener" width="850">)
+ ![Image of landing page]<img src="https://res.cloudinary.com/ddrsbzhmf/image/upload/v1614897093/CarDeluxe/landing_page_cpfxjv.png" alt="mockup" target="_blank" rel="noopener" width="850">
 
 ---
 
