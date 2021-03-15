@@ -1,3 +1,12 @@
+/* --- Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&display=swap');
+
+/* CSS rules to specify families
+
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
 /*---Navbar---*/
 
 .navbar.navbar-dark.navbar-expand-lg {
@@ -82,6 +91,8 @@ a.nav-link.active a:focus {
     color: #f9d616;
     margin-top: .5rem;
     padding: 1rem;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 25%;
 }
 
 .clean-block .block-heading h1,
@@ -108,7 +119,7 @@ a.nav-link.active a:focus {
     max-width: 420px;
     margin: 15px auto;
     padding: 15px;
-    box-shadow: 5px 15px 15px 5px;
+    box-shadow: 1px 1px 10px 0px;
     opacity: 0.8;
 }
 
@@ -144,6 +155,13 @@ a.nav-link.active a:focus {
 .fa.fa-dashboard.icon {
     color: #ef1a1a;
 }
+
+/* --- About-Us page --- */
+
+.clean-card {
+    box-shadow: 5px 6px 10px 0px rgb(0 0 0 / 85%)
+
+    }
 
 /*---Pricing page---*/
 
@@ -238,7 +256,7 @@ span {
 
 #myFooter {
     background-color: #070707;
-    padding-top: 30px;
+    padding: 5px;
     height: auto;
 }
 
@@ -329,28 +347,34 @@ span {
     align-self: center;
 }
 
-.text-info {
+.text-white {
     text-align: center;
     height: 40px;
     padding: 10px;
     opacity: 0.8;
     filter: saturate(96%);
-    font-size: 13px;
+    font-size: 0.8rem;
     font-style: oblique;
 }
 
 /*---Media Queries---*/
 
-@media (min-width: 300px) {
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
     .clean-block.clean-hero {
     justify-content: center;
     display: flex;
     min-height: 90vh;
     padding-bottom: 5%;
     }
+
+    #about-text {
+        margin: 15px;
+    }
 }
 
-@media (min-width:576px) {  
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
     .clean-block.clean-hero {
     justify-content: center;
     display: flex;
@@ -360,5 +384,34 @@ span {
 
     .clean-block.clean-hero .text {
     padding: 1rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card {
+    min-height: 750px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #myFooter
+    .card {
+    min-height: 750px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .clean-block.clean-hero {
+    justify-content: center;
+    display: flex;
+    min-height: 91vh;
+    padding-bottom: 5%;
+    }
+
+    .card {
+    min-height: 750px;
     }
 }
