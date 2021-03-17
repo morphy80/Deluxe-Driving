@@ -87,10 +87,11 @@ a.nav-link.active a:focus {
 
 #header,
 #logo {
-    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
     color: #f9d616;
-    margin-top: .5rem;
-    padding: 1rem;
+    margin-top: 1.8rem;
+    padding: 1.4rem;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 25%;
 }
@@ -115,9 +116,10 @@ a.nav-link.active a:focus {
 .clean-block .block-heading p {
     color: #212529;
     font-weight: 400;
+    font-family: 'Lato', sans-serif;
     text-align: center;
-    max-width: 420px;
-    margin: 15px auto;
+    max-width: 41rem;
+    margin: 30px auto;
     padding: 15px;
     box-shadow: 1px 1px 10px 0px;
     opacity: 0.8;
@@ -156,22 +158,35 @@ a.nav-link.active a:focus {
     color: #ef1a1a;
 }
 
+/* --- Gallery page --- */
+
+.carousel-item {
+    transition: transform 5s ease, opacity .5s ease-out;
+}
+
+
 /* --- About-Us page --- */
 
-.clean-card {
-    box-shadow: 5px 6px 10px 0px rgb(0 0 0 / 85%)
-
-    }
+.clean-card,
+.card {
+    box-shadow: 5px 6px 10px 0px rgb(0 0 0 / 85%);
+    /* min-height: 80vh; */
+}
 
 /*---Pricing page---*/
 
-.clean-pricing-item .features .feature {
-    color: #070707;
+.clean-pricing-item .price h4 {
+    color: #ef1a1a;
+    font-size: 28px !important;
+    font-family: 'Lato', sans-serif;
 }
 
-.h3, h3 {
-    color: #070707;
+.clean-pricing-item {
+    box-shadow: 5px 6px 10px 0px rgb(0 0 0 / 85%);
+    padding: 20px;
+    margin: 20px;
 }
+
 
 /*---Testimonials page---*/
 
@@ -239,7 +254,8 @@ span {
     filter: contrast(173%);
 }
 
-.btn.btn-primary.btn-block.d-block {
+.btn.btn-primary.btn-block.d-block,
+.btn-primary {
     text-align: center;
     background-color: #2d51ff;
     font-weight: bold;
@@ -368,8 +384,12 @@ span {
     padding-bottom: 5%;
     }
 
-    #about-text {
-        margin: 15px;
+    #myFooter {
+        height: 100vh;
+    }
+
+    .clean-block .block-heading p {
+        margin: 30px;
     }
 }
 
