@@ -108,7 +108,8 @@ a.nav-link.active a:focus {
     background-color: hsla(0, 0%, 0%, 0.075);
 }
 
-.clean-block.clean-hero p {
+#landing-lead-text {
+    margin-bottom: 6rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
 }
@@ -196,7 +197,7 @@ a.nav-link.active a:focus {
 }
 
 .clean-testimonial-item h3 {
-    text-align: center;
+    text-align: right;
     color: #070707;
     padding: 10px;
 }
@@ -276,19 +277,8 @@ span {
     height: auto;
 }
 
-#myFooter .footer-copyright {
-    background-color: #351313;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    text-align: center;
-}
-
-#myFooter .row {
-    margin-bottom: 40px;
-}
-
-#myFooter .footer-copyright p {
-    margin: 10px;
+#footer-content {
+    margin-bottom: 3%;
 }
 
 #myFooter ul {
@@ -297,8 +287,8 @@ span {
     line-height: 2;
 }
 
-#myFooter h5 {
-    font-size: 18px;
+.footer-titles {
+    font-size: 1.1rem;
     color: #fff;
     font-weight: bold;
     margin-top: 25px;
@@ -327,7 +317,7 @@ span {
 }
 
 #myFooter .social-links a {
-    font-size: 22px;
+    font-size: 1.3rem;
     padding: 10px;
     transition: 0.2s;
 }
@@ -363,13 +353,14 @@ span {
     align-self: center;
 }
 
-.text-white {
+#copyright-text {
     text-align: center;
-    height: 40px;
+    height: 2.5rem;
+    margin-bottom: 0px;
     padding: 10px;
     opacity: 0.8;
     filter: saturate(96%);
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-style: oblique;
 }
 
@@ -378,9 +369,7 @@ span {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .clean-block.clean-hero {
-    justify-content: center;
-    display: flex;
-    min-height: 90vh;
+    min-height: 95vh;
     padding-bottom: 5%;
     }
 
@@ -388,20 +377,14 @@ span {
         height: 100vh;
     }
 
-    .clean-block .block-heading p {
-        margin: 30px;
+    #footer-content {
+        margin-bottom: 16%;
     }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .clean-block.clean-hero {
-    justify-content: center;
-    display: flex;
-    min-height: 95vh;
-    padding-bottom: 5%;
-    }
-
+    
     .clean-block.clean-hero .text {
     padding: 1rem;
     }
@@ -409,14 +392,11 @@ span {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .card {
-    min-height: 750px;
-    }
+    
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-    #myFooter
     .card {
     min-height: 750px;
     }
