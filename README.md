@@ -10,7 +10,6 @@
     - [**User Stories**](#user-stories)
     - [**Design**](#design)
     - [**Wireframes**](#wireframes)
-    - [**Database Schema**](#database-schema)
 3. [**Features**](#features)
     - [**Existing Features**](#existing-features)
     - [**Features Left to Implement**](#features-left-to-implement)
@@ -18,7 +17,6 @@
     - [**Languages**](#languages)
     - [**Libraries and Frameworks**](#libraries-and-frameworks)
     - [**Tools**](#tools)
-    - [**Databases**](#databases)
     - [**Version Control**](#version-control)
     - [**Hosting**](#hosting)
 5. [**Testing**](#testing)
@@ -41,7 +39,9 @@ The main scope of the website is to sell the experience of extraordinary driving
 The ideea started from my personal passion with speed cars and limited local offer. 
 The only website I could find in Sweden dedicated to luxury cars and rental experience that I've also used as source of inspiration is : [dreamcarrental.se](https://www.dreamcarrental.se/)
 
- ![Image of landing page]<img src="https://res.cloudinary.com/ddrsbzhmf/image/upload/v1614897093/CarDeluxe/landing_page_cpfxjv.png" alt="mockup" target="_blank" rel="noopener" width="850">
+[Responsive mockup](http://ami.responsivedesign.is/#)
+
+<img src="https://res.cloudinary.com/ddrsbzhmf/image/upload/v1614897093/CarDeluxe/landing_page_cpfxjv.png" alt="mockup" target="_blank" rel="noopener" width="850">
 
 ---
 
